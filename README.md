@@ -42,8 +42,8 @@ The skill is built around a "four-quarter time allocation" framework:
 ### 1. Install
 
 ```bash
-git clone https://github.com/flychicken067/wechat-article-pipeline.git ~/.claude/skills/wechat-article-pipeline
-cd ~/.claude/skills/wechat-article-pipeline
+git clone https://github.com/flychicken067/ivan-article.git ~/.claude/skills/ivan-article
+cd ~/.claude/skills/ivan-article
 pip install requests
 ```
 
@@ -63,7 +63,7 @@ To create a Telegram bot: message [@BotFather](https://t.me/BotFather) → `/new
 In Claude Code:
 
 ```
-/wechat-article-pipeline
+/ivan-article
 
 Here's today's input:
 [paste tweet / podcast note / AI dialogue / book excerpt]

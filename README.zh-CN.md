@@ -40,8 +40,8 @@ Skill 围绕「四分之一时间分配框架」设计：
 ## 安装
 
 ```bash
-git clone https://github.com/flychicken067/wechat-article-pipeline.git ~/.claude/skills/wechat-article-pipeline
-cd ~/.claude/skills/wechat-article-pipeline
+git clone https://github.com/flychicken067/ivan-article.git ~/.claude/skills/ivan-article
+cd ~/.claude/skills/ivan-article
 pip install requests
 ```
 
@@ -60,7 +60,7 @@ python3 telegram/send.py --test   # 验证连接
 
 在 Claude Code 里：
 ```
-/wechat-article-pipeline
+/ivan-article
 
 今天的素材是：[粘贴推文 / 播客笔记 / AI 对话 / 书摘]
 ```

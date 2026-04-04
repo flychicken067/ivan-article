@@ -1,10 +1,10 @@
 ---
-name: wechat-article-pipeline
+name: ivan-article
 description: |
   Full WeChat public account article production pipeline — from raw input (tweet/podcast/AI dialogue/book note) to publish-ready output delivered to Telegram.
   Covers: research & source verification → article draft → X Thread (Zara Zhang style) → multi-channel HTML preview → Telegram delivery.
-  触发方式：/wechat-article-pipeline、「帮我写公众号」、「今天的素材是」
-  Trigger: /wechat-article-pipeline, "write my wechat article", "here's today's input"
+  触发方式：/ivan-article、「帮我写公众号」、「今天的素材是」
+  Trigger: /ivan-article, "write my wechat article", "here's today's input"
 ---
 
 # WeChat Article Pipeline
