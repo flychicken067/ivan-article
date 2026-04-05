@@ -152,9 +152,18 @@ PROJECT_ROOT=/path/to/your/project
 | `telegram/listen.py` | Listen for inputs from your phone |
 | `telegram/get_chat_id.py` | One-time setup: get your chat ID |
 
-## Example Output
+## Sample Output
 
-**Article hook:**
+See [`examples/article_09_sample.md`](examples/article_09_sample.md) for a complete real output — Article 09 produced by this skill in a single session.
+
+**What's included in that example:**
+- Full 6-section article (李圆方 numbered style)
+- Complete 5-tweet X thread (Zara Zhang "Party not Stage")
+- Phase-by-phase production log showing exactly what the skill did
+
+**Stats:** Article 08 from the same pipeline: 88 reads, 10 forwards (historical high).
+
+**Article hook from Article 08:**
 > Matthew Gallagher, 41, launched a company from his living room in September 2024. $20,000. Two months. Zero employees.
 >
 > 2025 full-year revenue: $401 million. Net margin: 16.2%.
@@ -163,12 +172,12 @@ PROJECT_ROOT=/path/to/your/project
 >
 > **Six weeks earlier, the FDA had sent a formal warning letter.**
 
-**X thread tweet 3:**
-> Nic Carter's tweet got 2.79M impressions.
+**Article 09 opening (full example in `/examples`):**
+> 最近国内 Claude Code 圈子里最火的两件事，都跟"蒸馏人"有关。
 >
-> He asked: "first vibecoded billion-dollar company?"
+> 女娲.skill 自己在文档里写了一句话：「蒸馏不了直觉。那种面对从没见过的问题时的'我觉得这个方向是对的'，不在文字里。」
 >
-> The part the NYT didn't write: the glowing profile ran 6 weeks after FDA warning letter #721455 landed at Medvi's door. Feb 20, 2026.
+> 这句话是今天这篇文章的起点。
 
 ## License
 
